@@ -5,7 +5,7 @@ read nodeversion
 sudo apt update
 sudo apt -y upgrade
 sudo apt install -y curl
-sudo apt install -y apache2 php7.4-cli mysql-server
+sudo apt install -y apache2 php7.4 php7.4-cli mysql-server
 sudo mysql_secure_installation
 sudo mysql -u root -p
 sudo apt install -y phpmyadmin
